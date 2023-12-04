@@ -2,7 +2,11 @@
 
 debut entree ( argent , prix)
 
-a= argent    b= prix    i=0  
+a= argent ;   b= prix  ;  i=0  
+si a <= 0 OU prix <= 0
+    afficher "Montant et prix doivent être > 0"
+    arret
+fin si
 
 tan que a >= b
     
