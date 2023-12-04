@@ -1,15 +1,9 @@
 # algo1
 
 debut entree ( argent , prix)
-a= argent    b= prix
-
-
-
-Début divition (réel a, réel b)
-
-    réel c ← a // b
-    retourner c
-
-Fin divition 
-
-print c
+a= argent    b= prix    i=0  
+tan que a > b
+    a ← a - b
+    i ← i + 1
+fin Tant que
+afficher i
